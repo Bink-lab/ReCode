@@ -32,7 +32,7 @@ This project makes use of [Nuitka](https://nuitka.net) and [FFmpeg](ffmpeg.org) 
 
 ## Dependencies
 
-- [FFmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert, and stream audio and video.
+- [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert, and stream audio and video.
 - [tkinter](https://docs.python.org/3/library/tkinter.html) - Python's standard GUI (Graphical User Interface) package.
 - [re](https://docs.python.org/3/library/re.html) - A built-in Python module for working with regular expressions.
 
