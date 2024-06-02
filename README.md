@@ -1,10 +1,27 @@
+# UNFINISHED
+
+Please note that this project is still unfinished and will get updates frequently
+
 # Video Converter
 
 This is a simple video converter script written in Python using the FFmpeg library.
 
+
 ## Description
 
-This script allows you to convert video files from one format to another using various codecs supported by FFmpeg.
+This project is a very lightweight tool that allows you to easily encode ur videos in a different codec.
+
+This project makes use of [Nuitka](https://nuitka.net) and [FFmpeg](ffmpeg.org) libraries.
+
+### What is [Nuitka](https://nuitka.net)?
+- Nuitka can be used to convert your python code into an executable (.exe), allthough this is very handy there are some issues with the library.
+- Issues: When converting python code with any library the executable files can become very big due to the fact they need to compress all the used libraries to a small .exe file.
+
+### What is FFmpeg?
+- FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge. No matter if they were designed by some standards committee, the community or a corporation. It is also highly portable: FFmpeg compiles, runs, and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft Windows, the BSDs, Solaris, etc. under a wide variety of build environments, machine architectures, and configurations.
+
+### How?
+- This program uses your CPU to first extract all the frames from the video, then encode the frames with a different codec.
 
 ## Features
 
@@ -21,22 +38,25 @@ This script allows you to convert video files from one format to another using v
 
 ## Usage
 
-1. Run the script `video_converter.py`.
-2. Select the input video file.
-3. Choose the desired output format by entering the corresponding number.
-4. Wait for the conversion process to complete.
+1. Install the needed tools
+2. Run the script `video_converter.py` or run the executable file `video_converter.exe`
+3. Select the input video file.
+4. Choose the desired output format by entering the corresponding number.
+5. Wait for the conversion process to complete.
 
-## Installation for manual use
+## Installation (.exe)
+
+1. Install FFmpeg. You can download it
+2. Ur done! Run `video_converter.exe`
+## Manual (.py)
 
 1. Make sure you have Python installed on your system. You can download it from [here](https://www.python.org/downloads/).
-2. Install FFmpeg. You can download it from [here](https://ffmpeg.org/download.html).
-3. Install the required Python packages using pip:
-
-- TKinter
-```python
-pip install tkinter
-```
+2. Open a cmd prompt and type this command: `pip install -r requirements.txt`
+3. Ur done! Run `video_converter.py`
 
 
+# Author
 
+This project is made by a Sidney (Bink-Lab), a single developer.
 
+For more info check [this](github.com/bink-lab) page
